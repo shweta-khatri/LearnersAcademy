@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Learners-Academy</display-name>
+  <welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>Students</servlet-name>
+		<servlet-class>com.khatri.servlet.mods.Students</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Teachers</servlet-name>
+		<servlet-class>com.khatri.servlet.mods.Teachers</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Subjects</servlet-name>
+		<servlet-class>com.khatri.servlet.mods.Subjects</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Classes</servlet-name>
+		<servlet-class>com.khatri.servlet.mods.Classes</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SaveStudent</servlet-name>
+		<servlet-class>com.khatri.servlet.save.SaveStudent</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SaveSubject</servlet-name>
+		<servlet-class>com.khatri.servlet.save.SaveSubject</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SaveTeacher</servlet-name>
+		<servlet-class>com.khatri.servlet.save.SaveTeacher</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SaveClass</servlet-name>
+		<servlet-class>com.khatri.servlet.save.SaveClass</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddStudent</servlet-name>
+		<servlet-class>com.khatri.servlet.add.AddStudent</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddSubject</servlet-name>
+		<servlet-class>com.khatri.servlet.add.AddSubject</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddTeacher</servlet-name>
+		<servlet-class>com.khatri.servlet.add.AddTeacher</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AddLearnersClass</servlet-name>
+		<servlet-class>com.khatri.servlet.add.AddLearnersClass</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ViewStudent</servlet-name>
+		<servlet-class>com.khatri.servlet.view.ViewStudent</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ViewSubject</servlet-name>
+		<servlet-class>com.khatri.servlet.view.ViewSubject</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ViewTeacher</servlet-name>
+		<servlet-class>com.khatri.servlet.view.ViewTeacher</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ViewClassStudents</servlet-name>
+		<servlet-class>com.khatri.servlet.view.ViewClassStudents</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ViewClass</servlet-name>
+		<servlet-class>com.khatri.servlet.view.ViewClass</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.khatri.servlet.login.UserLogin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.khatri.servlet.login.AdminLogin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>StudentLogin</servlet-name>
+		<servlet-class>com.khatri.servlet.login.StudentLogin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>TeacherLogin</servlet-name>
+		<servlet-class>com.khatri.servlet.login.TeacherLogin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>AdminPage</servlet-name>
+		<servlet-class>com.khatri.servlet.page.AdminPage</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>StudentPage</servlet-name>
+		<servlet-class>com.khatri.servlet.page.StudentPage</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>TeacherPage</servlet-name>
+		<servlet-class>com.khatri.servlet.page.TeacherPage</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Students</servlet-name>
+		<url-pattern>/students</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Teachers</servlet-name>
+		<url-pattern>/teachers</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Subjects</servlet-name>
+		<url-pattern>/subjects</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Classes</servlet-name>
+		<url-pattern>/classes</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SaveStudent</servlet-name>
+		<url-pattern>/savestudent</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SaveSubject</servlet-name>
+		<url-pattern>/savesubject</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SaveTeacher</servlet-name>
+		<url-pattern>/saveteacher</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SaveClass</servlet-name>
+		<url-pattern>/saveclass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ViewClassStudents</servlet-name>
+		<url-pattern>/viewclassstudents</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ViewStudent</servlet-name>
+		<url-pattern>/viewstudents</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ViewSubject</servlet-name>
+		<url-pattern>/viewsubjects</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ViewTeacher</servlet-name>
+		<url-pattern>/viewteachers</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ViewClass</servlet-name>
+		<url-pattern>/viewclasses</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AddStudent</servlet-name>
+		<url-pattern>/addstudent</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AddSubject</servlet-name>
+		<url-pattern>/addsubject</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AddTeacher</servlet-name>
+		<url-pattern>/addteacher</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AddLearnersClass</servlet-name>
+		<url-pattern>/addclass</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/userlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>StudentLogin</servlet-name>
+		<url-pattern>/studentlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>TeacherLogin</servlet-name>
+		<url-pattern>/teacherlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/adminlogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>AdminPage</servlet-name>
+		<url-pattern>/adminpage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>StudentPage</servlet-name>
+		<url-pattern>/studentpage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>TeacherPage</servlet-name>
+		<url-pattern>/teacherpage</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
